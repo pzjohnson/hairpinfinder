@@ -1,0 +1,28 @@
+body {
+    background-color: AliceBlue;
+    color: DarkBlue;
+    font-family: "Courier New", Courier, monospace;
+}
+
+div.clear-box {
+    margin: 25px;
+}
+
+div.green-floral-box {
+    background-color: FloralWhite;
+    border-style: solid;
+    border-color: LightGreen;
+    margin: 25px;
+    padding: 25px;
+}
+
+table {
+    margin: 10px;
+    border-collapse: collapse;
+    border: 3px solid LightGreen;
+}
+
+th, td {
+    border: 2px solid LightGreen;
+    padding: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+<form action="/results" method="post">
+    <div class="clear-box">
+        <b>Enter the URLs for the files below:</b><br>
+    </div>
+
+    <div class="green-floral-box">
+        <b>ct file of the target RNA sequence:</b><br>
+        <br>
+        <input type="text"
+               name="target"
+               style="background-color:AliceBlue;
+                      width:800px;
+                      border-style:solid;
+                      border-color:LightGreen;
+                      border-width:3px"
+               required>
+        <br>
+    </div>
+
+    <div class="green-floral-box">
+        <b>ct files for RNA sequences to compare to:</b><br>
+        <br>
+        <textarea name="others"
+                  rows="15"
+                  cols="100"
+                  style="background-color:AliceBlue;
+                         border-color:LightGreen;
+                         border-width:3px"
+                  required></textarea>
+        <br>
+    </div>
+
+    <div class="clear-box">
+        <button type="submit" style="background-color:LightGreen;
+                                     border-style:solid;
+                                     border-color:LightGreen;
+                                     padding=5px;">
+            <font face="Courier New" color="DarkBlue"><b>Submit</b></font>
+        </button>
+    </div>
+</form>
+
+</body>
+</html>
